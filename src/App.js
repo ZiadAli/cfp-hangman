@@ -20,7 +20,9 @@ class App extends React.Component {
 		}
 	}
 
-	handleTextChange(event) {}
+	handleTextChange(event) {
+		alert(event.target.value)
+	}
 
 	handleSubmit(event) {
 		alert("Submitted")
